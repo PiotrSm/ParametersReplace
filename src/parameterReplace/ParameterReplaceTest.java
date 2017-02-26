@@ -6,6 +6,9 @@ import org.junit.Test;
 
 public class ParameterReplaceTest {
 
+	/**
+	 * Tests clean text without #
+	 */
 	@Test
 	public void testStringWithoutParameter() {
 		assertEquals("this is test", ParameterReplace.replace("this is test"));
