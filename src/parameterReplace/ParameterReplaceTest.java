@@ -7,7 +7,7 @@ import org.junit.Test;
 public class ParameterReplaceTest {
 
 	/**
-	 * Tests clean text without #
+	 * Tests clean text without # 22222
 	 */
 	@Test
 	public void testStringWithoutParameter() {
